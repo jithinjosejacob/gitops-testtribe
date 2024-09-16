@@ -16,7 +16,7 @@
                 "    pm.expect(pm.response.text()).to.contain(\"Hello Kubernetes\")",
                 "})",
                 "",
-                "pm.test(\"Response code status - Mon-demo\", () => {",
+                "pm.test(\"Response code status - MEvening-demo\", () => {",
                 "    pm.expect(pm.response.status).to.equal(\"OK\")",
                 "})"
               ],
