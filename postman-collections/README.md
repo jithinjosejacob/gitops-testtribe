@@ -33,7 +33,11 @@ Sync the changes in ArgoCD
 
 jithinjosejacob-personal-env
 
-3) Test Execution and Results
+3) Make sure that app is running fine in cluster
+
+```kubectl get svc -n default hello-kubernetes-service```
+
+4) Test Execution and Results
 
 ```testkube dashboard```
 
